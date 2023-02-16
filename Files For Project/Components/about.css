@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#about1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+    height: 90vh;
+}
+#about2{
+    border: 3px solid white;
+    padding: 37px;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+}
+#about3{
+        padding: 25px 40px;
+        border:3px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+}
