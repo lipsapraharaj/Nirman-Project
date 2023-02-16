@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #0000003d; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ========================Drone Vedio styling========================= */
+#background-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* ========================navbar styling========================= */
+#mainnavbar {
+    padding: 12px 0;
+}
+
+#mainlogo {
+    width: 110px;
+    padding: 4px 12px;
+}
+
+#navbarlink {
+    font-size: 19px;
+    font-family: 'Roboto  ', sans-serif;
+    color: rgba(255, 255, 255, 0.496);
+    padding: 0 12px;
+}
+
+#navbarlink:hover {
+    color: white;
+}
+
+#loginbtn {
+    padding: 4px 12px;
+    margin: 0 10px;
+}
+
+/* ====================Body Styling========================= */
+#home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#head1,
+#head2,
+#head3 {
+    position: absolute;
+    font-family: sans-serif;
+}
+
+#head1 {
+    font-size: 255px;
+    top: 117px;
+    left: 100px;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffffff;
+    letter-spacing: 6px;
+}
+
+#head2 {
+    font-size: 155px;
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 104px;
+    z-index: -1;
+    top: 310px;
+    font-weight: 700;
+}
+
+#head3 {
+    font-size: 70.2px;
+    letter-spacing: 2px;
+    top: 432px;
+    left: 104px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+/* =======================About Section Styling========================= */
+#about {
+    width: 100%;
+    height: 136vh;
+    /* background-color: rgba(255, 255, 255, 0.241); */
+    position: relative;
+}
+#vedmap{
+    height: 300px;
+    left: 316px;
+    position: absolute;
+    top: 555px;
+    border-radius: 10px;
+}
+#span{
+    font-size: 35px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(90deg, #39B5E0, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #ff41ea, #39B5E0, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* #span2{
+    font-size: 35px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: #ffffff;
+} */
+
+#head4,
+#head5 {
+    position: absolute;
+    font-family: sans-serif;
+}
+
+#head4 {
+    font-size: 125px;
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 878px;
+    z-index: -1;
+    top: 373px;
+    font-weight: 700;
+}
+
+#head5 {
+    font-size: 77px;
+    top: 467px;
+    font-weight: 600;
+    left: 883px;
+    color: transparent;
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+/* =======================Info Section Styling========================= */
+#info {
+    width: 100%;
+    height: 117vh;
+    /* background-color: rgba(255, 0, 0, 0.241); */
+}
+
+#head6,
+#head7 {
+    position: absolute;
+    font-family: sans-serif;
+}
+
+#head6 {
+    font-size: 165px;
+    top: 24px;
+    font-weight: 600;
+    left: 131px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    letter-spacing: 6px;
+}
+
+#head7 {
+    font-size: 94px;
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 132px;
+    z-index: -1;
+    top: 144px;
+    font-weight: 700;
+}
+
+.card {
+    width: 18rem;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    box-shadow: 10px 10px 15px #ffffff38;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+#instagram,
+#linkedin,
+#mail,
+#github {
+    text-decoration: none;
+    font-size: 22px;
+    background: -webkit-linear-gradient(90deg, #39B5E0, #A31ACB, #ff41ea);
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+#instagram:hover,
+#linkedin:hover,
+#mail:hover,
+#github:hover{
+    transform: translateY(-0.12em);
+    transition: 0.2s;
+}
+
+
+/* =======================ContactUS Section Styling========================= */
+#contact {
+    width: 100%;
+    height: 41vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255 255 255 / 7%);
+    /* background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff); */
+}
+#conbody{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.489);
+}
+.connavs{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    margin:30px 40px;
+}
+#footerbtn{
+    text-decoration: none;
+    font-size: 22px;
+    /* background: -webkit-linear-gradient(90deg, #39B5E0, #A31ACB, #ff41ea); */
+    margin: 0 10px;
+    color: rgb(82, 82, 82);
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+#footerbtn:hover{
+    transform: translateY(-0.12em);
+    transition: 0.2s;
+}
+
+/* ================================================================== */
+/* =======================About Page Styling========================= */
+
+#about1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+    height: 90vh;
+}
+#about2{
+    border: 3px solid white;
+    padding: 37px;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+}
+#about3{
+        padding: 25px 40px;
+        border:3px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+}
