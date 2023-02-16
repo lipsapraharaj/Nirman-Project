@@ -1,0 +1,90 @@
+#mainseclog,#mainsecreg{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#mainsecreg{
+    height: 100vh;
+}
+
+#mainh1 {
+    font-size: 52px;
+    color: white;
+}
+
+#mainh2log,#mainh2reg {
+    font-size: 32px;
+    padding: 20px 0px;
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #00c4ff);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    font-family: inherit;
+    -webkit-text-fill-color: transparent;
+}
+#mainh2reg{
+    padding: 7px 0px;
+}
+
+#mainformlog,#mainformreg {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 35px 83px;
+}
+#mainformreg {
+    padding: 20px 83px;
+}
+.formh3 {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.formin {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.forminPass{
+    background: transparent;
+    color: white;
+    outline: none;
+    border: hidden;
+    padding: 3px 0px 3px 15px;
+    font-size: 15px;
+}
+.divPass{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.formin:-webkit-autofill,
+.formin:-webkit-autofill:hover,
+.formin:-webkit-autofill:focus,
+.formin:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+#Regtag {
+    font-size: 20px;
+    /* padding: 20px 0px; */
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    -webkit-text-fill-color: transparent;
+}
+
+#Regtag:hover{
+    background: -webkit-linear-gradient(-9deg, #ff41ea, #A31ACB, #39B5E0, #39B5E0, #A31ACB, #ff41ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
