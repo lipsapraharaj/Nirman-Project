@@ -1,0 +1,56 @@
+.contain{
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+}
+.mapPart1{
+    width: 75%;
+    padding: 15px 100px 0 50px;
+}
+.mapPart2{
+    width: 25%;
+    padding-top: 20px;
+}
+#Head1{
+    position: absolute;
+    font-size: 111px;
+    background: -webkit-linear-gradient(-9deg, #39B5E0, #39B5E0, #ff41ea, #A31ACB, #A31ACB, #ff41ea, #39B5E0, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 550px;
+    z-index: -1;
+    top: 81px;
+    font-weight: 700;
+}
+#Head2{
+    position: absolute;
+    font-size: 61px;
+    top: 160px;
+    left: 557px;
+    color: transparent;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #ffffff;
+    letter-spacing: 0px;
+}
+#table{
+    color:#b0b0ff;
+    font-family: 'Graduate', cursive;;
+}
+#deleteBtn,#editBtn{
+    color:#00f900;
+    text-decoration:none;
+}
+#deleteBtn{
+    color: #d70d2e;
+}
+#deleteBtn:hover,#editBtn:hover{
+    opacity: 0.7;
+}
+#btnCreate{
+    color: white;
+    font-weight: 600;
+    background:linear-gradient(-9deg, #39B5E0,  #ff00e1,#00c4ff);
+}
+#btnCreate:hover{
+    color: black;
+}
